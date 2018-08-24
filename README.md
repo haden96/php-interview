@@ -27,11 +27,6 @@ php artisan migrate
 php artisan db:seed
 ```
 
-//You can run PHP build-in server by running following command
-`php artisan serve`
-
-//The web application is running at http://127.0.0.1:8000.
-
 Now create `.gitignore` file appropriate for Your development environment.
 
 ## Task 2
