@@ -24,10 +24,16 @@ mv .env.example .env
 Enter your DB connection (use `DB_CONNECTION=pgsql` for PostgreSQL) in .env file and then:
 ```
 php artisan migrate
-php artisan db:seed
 ```
 
 Now create `.gitignore` file appropriate for Your development environment.
+
+After completing Task 2 run:
+
+```
+php artisan db:seed
+```
+
 
 ## Task 2
 
@@ -72,7 +78,7 @@ You can use any library you want to manipulate dates.
 
 ## Task 5
 
-Create unit test for Taks 4 covering edge cases. Test in Laravel are located in /tests/Unit where we prepared `BookingResponseTimeTest`
+Create unit test for Taks 4 covering edge cases. Test in Laravel are located in /tests/Unit where we have prepared `BookingResponseTimeTest`
 
 > **Hint:** Laravel is configured with phpunit. If you don't have your own installation you may use `vendor/bin/phpunit`. 
 If that fails for any reason don't waste your time trying to fix this. We will look only at your test coverage.  
