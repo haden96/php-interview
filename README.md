@@ -61,7 +61,7 @@ created_at = 2018-08-04 16:00:00 (Sat)
 updated_at = 2018-08-06 9:30:00 (Mon)
 Opening hours: 
 Mon - Sat: 9:00 - 18:00
-Sat: closed
+Sun: closed
 
 Response time will be: 120 minutes on Sat + 30 min on Mon = 150 minutes
 ````
